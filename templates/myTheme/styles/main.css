@@ -1,0 +1,1007 @@
+body
+{
+    color: #2d3135;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 15px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    word-wrap: break-word;
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Exo 2 Condensed";
+    color: #0d5966;
+}
+
+h1
+{
+    font-weight: 500;
+    font-size: 39px;
+}
+
+h2
+{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 1.8;
+}
+
+h3
+{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.8;
+}
+
+h5
+{
+    font-size: 15px;
+    padding: 10px 0 5px 0;
+    font-weight: 500;
+}
+
+h6
+{
+    font-size: 14px;
+    padding: 8px 0 0 0;
+    font-weight: 500;
+}
+
+article h1
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article h2,
+article h3,
+article h4
+{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+article h3
+{
+    margin-bottom: 12px;
+}
+
+article h4
+{
+    padding-bottom: 6px;
+    border-bottom: 2px solid #f2f2f2;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+blockquote
+{
+    font-size: 15px;
+    border-left-color: #88c1b9;
+    border-left-width: 4px;
+    background-color: #edf9f6;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* NAVBAR */
+.navbar-brand > img
+{
+    color: #fff;
+}
+
+header .navbar
+{
+    font-family: "Exo 2";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar
+{
+    border: none;
+    /* Both navbars use box-shadow */
+    -webkit-box-shadow: 0 8px 10px 0 rgb(242, 242, 242);
+    -moz-box-shadow: 0 8px 10px 0 rgb(242, 242, 242);
+    box-shadow: 0 8px 10px 0 rgb(242, 242, 242);
+    /*box-shadow: 0px 1px 3px 0px rgba(100, 100, 100, 0.5);*/
+}
+
+header .subnav
+{
+    border-top: 1px solid #ddd;
+    /*background-color: #eefbfa;*/
+    background-color: #fafefe;
+    font-style: italic;
+    font-size: 13px;
+    min-height: 28px;
+    font-weight: 300;
+}
+
+.breadcrumb
+{
+    padding: 4px 0;
+    white-space: inherit;
+}
+
+.navbar-inverse
+{
+    background-color: #0d5966;
+    z-index: 100;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-text
+{
+    color: #fff;
+    background-color: #0d5966;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    color: #fff;
+    background-color: #0d5966;
+    border-bottom: 3px solid #9db3c3;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+    color: #fff;
+    background-color: #19616e;
+    border-bottom: 3px solid #bedddb;
+}
+
+.navbar-form .form-control
+{
+    border: none;
+    border-radius: 4px;
+}
+
+#logo
+{
+    /*width: 117px;*/
+    max-width: 122px;
+    height: 26.8px;
+    top: 11px;
+    position: relative;
+    margin-right: 10px;
+}
+
+a:hover > #logo g:not(:last-child) path,
+a:hover > #logo g:not(:last-child) polygon,
+a:hover > #logo g:not(:last-child) rect
+{
+    fill: #dcfff3;
+}
+
+#autocollapse .form-control
+{
+    width: 110%;
+    height: 25px;
+    margin-top: 12px;
+    padding: 0 7px;
+}
+
+#search
+{
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+
+@media (max-width:768px)
+{
+    #autocollapse .form-control
+    {
+        width: 100%;
+    }
+
+    .navbar-form
+    {
+        border-top: none;
+    }
+
+    .toc li::after
+    {
+        content: "";
+        margin: 0;
+    }
+
+    .toc .nav > li,
+    .toc .nav > li > a
+    {
+        display: block;
+    }
+}
+
+/* SIDEBAR */
+.toc ul
+{
+    margin-left: 17px;
+    font-size: 13px;
+}
+
+.toc ul.level1,
+.toc ul.level2
+{
+    margin-left: 0;
+}
+
+.toc .nav > li > a,
+.toc .nav > li.active > a
+{
+    color: #777;
+}
+
+.toc .nav > li.active.curr > a
+{
+    color: #3AA59D;
+}
+
+.sidetoc > .toc .nav > li > a:focus
+{
+    color: #0d5966;
+}
+
+.toc .nav.level1 > li.active > a
+{
+    /*color: #0d5966;*/
+    border-bottom: 2px solid #efefef;
+}
+
+.toc .level1 > li
+{
+    font-weight: 600;
+}
+
+.toc .level2
+{
+    font-size: 13px;
+}
+
+.sidenav
+{
+    font-family: "Exo 2";
+    background-color: #f4f8f8;
+    padding: 5px 0;
+}
+
+.sidefilter
+{
+    background-color: #f4f8f8;
+    border-left: none;
+    border-right: none;
+    top: 80px;
+    width: 290px;
+}
+
+.toc-filter
+{
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    background-color: #f4f8f8;
+}
+
+.toc-filter > input
+{
+    /*border: 2px solid #eee;*/
+    border-radius: 4px;
+    padding: 2px 3px 2px 26px;
+    color: #777;
+}
+
+.toc-filter > .filter-icon
+{
+    top: 16px;
+    left: 16px;
+    color: #bbb;
+}
+
+.toc-filter > .clear-icon
+{
+    top: 16px;
+    right: 15px;
+    color: #a2a2a2;
+}
+
+.sidetoc > .toc
+{
+    background-color: #f4f8f8;
+    overflow-x: hidden;
+    margin: 0px 0 0 12px;
+    padding: 0 12px;
+}
+
+.sidetoc
+{
+    top: 140px;
+    background-color: #f4f8f8;
+    border: none;
+    text-align: left;
+    padding-bottom: 12px;
+    width: 290px;
+}
+
+.sidetoc.shiftup
+{
+    bottom: 0;
+}
+
+.affix > ul.level1
+{
+    height: calc(100% - 40px);
+}
+
+.sideaffix
+{
+    font-family: "Exo 2";
+    font-size: 13px;
+    overflow: visible;
+}
+
+.affix h5
+{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.affix ul > li.active > a,
+.affix ul > li.active > a::before
+{
+    color: #3AA59D;
+}
+
+.affix > ul > li.active > a,
+.affix > ul > li.active > a::before {
+    color: #0d5966;
+    font-weight: 500;
+}
+
+.affix ul > li > a
+{
+    color: #777;
+}
+
+/* ALERTS */
+.alert
+{
+    padding: 0px 0px 5px 0px;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.alert>p
+{
+    margin-bottom: 0;
+    padding: 5px 10px;
+}
+
+.alert>ul
+{
+    margin-bottom: 0;
+    padding: 5px 40px;
+}
+
+.alert>h5
+{
+    padding: 8px 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+}
+
+.alert-info>h5
+{
+    color: #6f9ecc;
+    border-bottom: 3px solid #cce1f5;
+    background-color: #e3f2fd;
+}
+
+.alert-warning>h5
+{
+    color: #dab256;
+    border-bottom: 3px solid #f1e6cf;
+    background-color: #feffe0;
+}
+
+.alert-danger>h5
+{
+    color: #d32f2f;
+    border-bottom: 3px solid #f7cccc;
+    background-color: #ffebee;
+}
+
+.alert.TIP>h5
+{
+    color: #52ada0;
+    border-bottom: 3px solid #c9e2dc;
+    background-color: #dcf5efd9;
+}
+
+.alert.IMPORTANT>h5
+{
+    color: #f57f17;
+    border-bottom: 3px solid #fbe1cb;
+    background-color: #fff3e0;
+}
+
+/* CODE HIGHLIGHT */
+pre
+{
+    padding: 9.5px;
+    margin: 0 0 14px;
+    font-size: 13px;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #fffbf2;
+    border-radius: 4px;
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+code
+{
+    color: #444444;
+    background-color: #dfefff;
+    padding: 3px 4px;
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hljs
+{
+    display: inline;
+    background-color: inherit;
+    padding: 0;
+    box-shadow: none;
+    box-shadow: none;
+}
+
+.hljs-link
+{
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #c1e2f3;
+}
+
+.hljs-string
+{
+    color: rgb(241 143 102);
+}
+
+/* Search result */
+.paginationpagination .page-link
+{
+    font-family: "Exo 2";
+}
+
+#search-results > .search-list
+{
+    font-size: 2.6rem;
+}
+
+.sr-items .item-title
+{
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.sr-items .item-href
+{
+    font-family: "Exo 2 Condensed";
+    color: #6195d8;
+}
+
+.sr-items .item-brief
+{
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.67;
+}
+
+.mark, mark
+{
+    padding: .03em;
+    color: #244e41;
+    background-color: #fff9dc;
+}
+
+/* Tables */
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th
+{
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Exo 2';
+    color: #f3f7f7;
+    background-color: #0d5966;
+    border-color: #7a9897;
+    border-width: 1px;
+}
+
+thead > tr > th.tbl
+{
+    border-left: 1px solid #0d5966;
+}
+
+thead > tr > th.tbt
+{
+    border-top: 1px solid #0d5966 !important;
+}
+
+thead > tr > th.tbr
+{
+    border-right: 1px solid #0d5966;
+}
+
+thead > tr > th.tbb
+{
+    border-bottom: 1px solid #0d5966;
+}
+
+table.with-row-span.table > tbody > tr
+{
+    background-color: initial;
+}
+
+/* Misc */
+.article
+{
+    margin-top: 75px;
+}
+
+article
+{
+    font-weight: 200;
+}
+
+.article.grid-right
+{
+    margin-left: 310px;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .article.grid-right
+    {
+        margin-left: 0;
+    }
+}
+
+.affix ul > li.active > ul,
+.affix ul > li.active > a:before,
+.affix ul > li > a:hover:before
+{
+    white-space: normal;
+}
+
+.affix ul ul > li > a::before
+{
+    content: "›";
+}
+
+.grad-bottom
+{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.04));
+    height: 15px;
+}
+
+.footer
+{
+    font-family: "Exo 2";
+    font-size: 14px;
+    background-color: #fafefe;
+    border-top: none;
+}
+
+.footer button,
+.footer a,
+.footer .btn-primary
+{
+    color: #0d5966;
+}
+
+button, a, .btn-primary
+{
+    color: #3AA59D;
+}
+
+a:hover,
+.sidetoc > .toc .nav > li > a:hover
+{
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: #c7f2ee;
+    color: #27b465;
+}
+
+.content a:not(:empty):not([data-caption])
+{
+    color: #0b5d57;
+    border-bottom: #41e3ff solid 1px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.0;
+    padding-top: 3px;
+}
+
+.content a:hover:not(:empty):not([data-caption])
+{
+    color: #06823d;
+    border-bottom: #00b0ff solid 1px;
+    background-color: #0480330b;
+    text-decoration: none;
+}
+
+.content li
+{
+    margin: 4px 0;
+}
+
+.content img
+{
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    margin: 0 0 12px;
+}
+
+.anchorjs-link
+{
+    margin-left: -25px !important;
+}
+
+h2 > .anchorjs-link
+{
+    margin-left: -27px !important;
+}
+
+::selection
+{
+    background-color: rgba(205, 255, 229, 0.75);
+    color: #072a4c;
+}
+
+::-moz-selection
+{
+    background-color: rgba(205, 255, 229, 0.75);
+    color: #072a4c;
+}
+
+.shadow
+{
+    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-md
+{
+    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg
+{
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* User Attributes */
+.text-gray
+{
+    color: #7a7a7a;
+}
+
+.text-light
+{
+    color: #afafaf;
+}
+
+.bg-azure
+{
+    background-color: #d2f3f7;
+}
+
+.azure-gray
+{
+    background-color: #d2f3f7;
+    color: #7a7a7a;
+}
+
+.azure-light
+{
+    background-color: #d2f3f7;
+    color: #afafaf;
+}
+
+/* Fonts */
+/* Fira Sans */
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 100;
+    font-style: normal;
+    src: local('Fira Sans ExtraLight'), local('FiraSans-ExtraLight'), url('/fonts/Fira_Sans/firasansextralight.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansextralight.woff') format('woff'), url('fonts/Fira_Sans/firasansextralight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 100;
+    font-style: italic;
+    src: local('Fira Sans ExtraLight Italic'), local('FiraSans-ExtraLightItalic'), url('/fonts/Fira_Sans/firasansextralightitalic.ttf') format('truetype'), url('fonts/Fira_Sans/firasansextralightitalic.woff') format('woff'), url('fonts/Fira_Sans/firasansextralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 200;
+    font-style: normal;
+    src: local('Fira Sans Light'), local('FiraSans-Light'), url('/fonts/Fira_Sans/firasanslight.ttf') format('truetype'), url('/fonts/Fira_Sans/firasanslight.woff') format('woff'), url('fonts/Fira_Sans/firasanslight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 200;
+    font-style: italic;
+    src: local('Fira Sans Light Italic'), local('FiraSans-LightItalic'), url('/fonts/Fira_Sans/firasanslightitalic.ttf') format('truetype'), url('/fonts/Fira_Sans/firasanslightitalic.woff') format('woff'), url('fonts/Fira_Sans/firasanslightitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Fira Sans Book'), local('FiraSans-Book'), url('/fonts/Fira_Sans/firasansbook.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansbook.woff') format('woff'), url('fonts/Fira_Sans/firasansbook.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 300;
+    font-style: italic;
+    src: local('Fira Sans Book Italic'), local('FiraSans-BookItalic'), url('/fonts/Fira_Sans/firasansbookitalic.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansbookitalic.woff') format('woff'), url('fonts/Fira_Sans/firasansbookitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Fira Sans'), local('FiraSans-Regular'), url('/fonts/Fira_Sans/firasans.ttf') format('truetype'), url('/fonts/Fira_Sans/firasans.woff') format('woff'), url('fonts/Fira_Sans/firasans.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-style: italic;
+    src: local('Fira Sans Italic'), local('FiraSans-Italic'), url('/fonts/Fira_Sans/firasansitalic.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansitalic.woff') format('woff'), url('fonts/Fira_Sans/firasansitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Fira Sans Medium'), local('FiraSans-Medium'), url('/fonts/Fira_Sans/firasansmedium.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansmedium.woff') format('woff'), url('fonts/Fira_Sans/firasansmedium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-style: italic;
+    src: local('Fira Sans Medium Italic'), local('FiraSans-MediumItalic'), url('/fonts/Fira_Sans/firasansmediumitalic.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansmediumitalic.woff') format('woff'), url('fonts/Fira_Sans/firasansmediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url('/fonts/Fira_Sans/firasanssemibold.ttf') format('truetype'), url('/fonts/Fira_Sans/firasanssemibold.woff') format('woff'), url('fonts/Fira_Sans/firasanssemibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-style: italic;
+    src: local('Fira Sans SemiBold Italic'), local('FiraSans-SemiBoldItalic'), url('/fonts/Fira_Sans/firasanssemibolditalic.ttf') format('truetype'), url('/fonts/Fira_Sans/firasanssemibolditalic.woff') format('woff'), url('fonts/Fira_Sans/firasanssemibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Fira Sans Bold'), local('FiraSans-Bold'), url('/fonts/Fira_Sans/firasansbold.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansbold.woff') format('woff'), url('fonts/Fira_Sans/firasansbold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-style: italic;
+    src: local('Fira Sans Bold Italic'), local('FiraSans-BoldItalic'), url('/fonts/Fira_Sans/firasansbolditalic.ttf') format('truetype'), url('/fonts/Fira_Sans/firasansbolditalic.woff') format('woff'), url('fonts/Fira_Sans/firasansbolditalic.woff2') format('woff2');
+}
+
+/* Exo 2 Condensed */
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 100;
+    font-style: normal;
+    src: local('Exo 2 Thin Condensed'), local('Exo2-ThinCondensed'), url('/fonts/Exo_2_Condensed/exo2thincondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2thincondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2thincondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 200;
+    font-style: normal;
+    src: local('Exo 2 Extra Light Condensed'), local('Exo2-ExtraLightCondensed'), url('/fonts/Exo_2_Condensed/exo2extralightcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2extralightcondensed.woff') format('woff2'), url('fonts/Exo_2_Condensed/exo2extralightcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Exo 2 Light Condensed'), local('Exo2-LightCondensed'), url('/fonts/Exo_2_Condensed/exo2lightcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2lightcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2lightcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Exo 2 Regular Condensed'), local('Exo2-RegularCondensed'), url('/fonts/Exo_2_Condensed/exo2regularcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2regularcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2regularcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Exo 2 Medium Condensed'), local('Exo2-MediumCondensed'), url('/fonts/Exo_2_Condensed/exo2mediumcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2mediumcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2mediumcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Exo 2 Semi Bold Condensed'), local('Exo2-SemiBoldCondensed'), url('/fonts/Exo_2_Condensed/exo2semiboldcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2semiboldcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2semiboldcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Exo 2 Bold Condensed'), local('Exo2-BoldCondensed'), url('/fonts/Exo_2_Condensed/exo2boldcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2boldcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2boldcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 800;
+    font-style: normal;
+    src: local('Exo 2 Extra Bold Condensed'), local('Exo2-ExtraBoldCondensed'), url('/fonts/Exo_2_Condensed/exo2extraboldcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2extraboldcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2extraboldcondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    font-weight: 900;
+    font-style: normal;
+    src: local('Exo 2 Black Condensed'), local('Exo2-BlackCondensed'), url('/fonts/Exo_2_Condensed/exo2blackcondensed.ttf') format('truetype'), url('/fonts/Exo_2_Condensed/exo2blackcondensed.woff') format('woff'), url('fonts/Exo_2_Condensed/exo2blackcondensed.woff2') format('woff2');
+}
+
+/* Exo 2 */
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 100;
+    font-style: normal;
+    src: local('Exo 2 Thin'), local('Exo2-Thin'), url('/fonts/Exo_2/exo2thin.woff2') format('woff2'), url('/fonts/Exo_2/exo2thin.woff') format('woff'), url('/fonts/Exo_2/exo2thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 100;
+    font-style: italic;
+    src: local('Exo 2 Thin Italic'), local('Exo2-ThinItalic'), url('/fonts/Exo_2/exo2thinitalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2thinitalic.woff') format('woff'), url('/fonts/Exo_2/exo2thinitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 200;
+    font-style: normal;
+    src: local('Exo 2 Extra Light'), local('Exo2-ExtraLight'), url('/fonts/Exo_2/exo2extralight.woff2') format('woff2'), url('/fonts/Exo_2/exo2extralight.woff') format('woff'), url('/fonts/Exo_2/exo2extralight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 200;
+    font-style: italic;
+    src: local('Exo 2 Extra Light Italic'), local('Exo2-ExtraLightItalic'), url('/fonts/Exo_2/exo2extralightitalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2extralightitalic.woff') format('woff'), url('/fonts/Exo_2/exo2extralightitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-style: normal;
+    src: local('Exo 2 Light'), local('Exo2-Light'), url('/fonts/Exo_2/exo2light.woff2') format('woff2'), url('/fonts/Exo_2/exo2light.woff') format('woff'), url('/fonts/Exo_2/exo2light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-style: italic;
+    src: local('Exo 2 Light Italic'), local('Exo2-LightItalic'), url('/fonts/Exo_2/exo2lightitalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2lightitalic.woff') format('woff'), url('/fonts/Exo_2/exo2lightitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 400;
+    font-style: normal;
+    src: local('Exo 2'), local('Exo2-Regular'), url('/fonts/Exo_2/exo2.woff2') format('woff2'), url('/fonts/Exo_2/exo2.woff') format('woff'), url('/fonts/Exo_2/exo2.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 400;
+    font-style: italic;
+    src: local('Exo 2 Italic'), local('Exo2-Italic'), url('/fonts/Exo_2/exo2italic.woff2') format('woff2'), url('/fonts/Exo_2/exo2italic.woff') format('woff'), url('/fonts/Exo_2/exo2italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-style: normal;
+    src: local('Exo 2 Medium'), local('Exo2-Medium'), url('/fonts/Exo_2/exo2medium.woff2') format('woff2'), url('/fonts/Exo_2/exo2medium.woff') format('woff'), url('/fonts/Exo_2/exo2medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 500;
+    font-style: italic;
+    src: local('Exo 2 Medium Italic'), local('Exo2-MediumItalic'), url('/fonts/Exo_2/exo2mediumitalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2mediumitalic.woff') format('woff'), url('/fonts/Exo_2/exo2mediumitalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-style: normal;
+    src: local('Exo 2 Semi Bold'), local('Exo2-SemiBold'), url('/fonts/Exo_2/exo2semibold.woff2') format('woff2'), url('/fonts/Exo_2/exo2semibold.woff') format('woff'), url('/fonts/Exo_2/exo2semibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 600;
+    font-style: italic;
+    src: local('Exo 2 Semi Bold Italic'), local('Exo2-SemiBoldItalic'), url('/fonts/Exo_2/exo2semibolditalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2semibolditalic.woff') format('woff'), url('/fonts/Exo_2/exo2semibolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Exo 2 Bold'), local('Exo2-Bold'), url('/fonts/Exo_2/exo2bold.woff2') format('woff2'), url('/fonts/Exo_2/exo2bold.woff') format('woff'), url('/fonts/Exo_2/exo2bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-style: italic;
+    src: local('Exo 2 Bold Italic'), local('Exo2-BoldItalic'), url('/fonts/Exo_2/exo2bolditalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2bolditalic.woff') format('woff'), url('/fonts/Exo_2/exo2bolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 800;
+    font-style: normal;
+    src: local('Exo 2 Extra Bold'), local('Exo2-ExtraBold'), url('/fonts/Exo_2/exo2extrabold.woff2') format('woff2'), url('/fonts/Exo_2/exo2extrabold.woff') format('woff'), url('/fonts/Exo_2/exo2extrabold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 800;
+    font-style: italic;
+    src: local('Exo 2 Extra Bold Italic'), local('Exo2-ExtraBoldItalic'), url('/fonts/Exo_2/exo2extrabolditalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2extrabolditalic.woff') format('woff'), url('/fonts/Exo_2/exo2extrabolditalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 900;
+    font-style: normal;
+    src: local('Exo 2 Black'), local('Exo2-Black'), url('/fonts/Exo_2/exo2black.woff2') format('woff2'), url('/fonts/Exo_2/exo2black.woff') format('woff'), url('/fonts/Exo_2/exo2black.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Exo 2';
+    font-weight: 900;
+    font-style: italic;
+    src: local('Exo 2 Black Italic'), local('Exo2-BlackItalic'), url('/fonts/Exo_2/exo2blackitalic.woff2') format('woff2'), url('/fonts/Exo_2/exo2blackitalic.woff') format('woff'), url('/fonts/Exo_2/exo2blackitalic.ttf') format('truetype');
+}

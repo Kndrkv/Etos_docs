@@ -1,0 +1,30 @@
+- name: Установка программы
+  href: 01_install.md
+- name: Настройка обновления
+  href: 02_update.md
+- name: Настройка глобальных свойств
+  href: 03_global_props.md
+- name: Пользователи
+  href: 04_users.md
+- name: Бизнес-роли пользователей
+  href: 05_business_roles.md
+- name: Профили пользователей, рабочие столы
+  href: 06_user_profiles.md
+- name: Настройка уведомлений
+  href: 07_notifications.md
+- name: Настройка конфигурации
+  href: 08_configuration.md
+- name: Группы прав доступа
+  href: 09_access.md
+- name: Журналы
+  href: Журналы/toc.yml
+- name: Настройка шаблонов документов
+  href: 10_templates.md
+- name: Показать/скрыть архивные/удаленные записи
+  href: 11_archive_delete.md
+- name: Объединение дублирующихся записей
+  href: 12_double.md
+- name: Справочник видов/типов для всех записей
+  href: 13_types_items.md
+- name: Стиль управления программы
+  href: 14_styles.md

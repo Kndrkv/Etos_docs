@@ -1,0 +1,10 @@
+- name: Журнал смены статусов
+  href: 01_log_status.md
+- name: Журнал диспетчера файлов
+  href: 02_log_files.md
+- name: Журнал событий
+  href: 03_log_events.md
+- name: Журнал последних изменений
+  href: 04_log_changes.md
+- name: Журнал активных пользователей
+  href: 05_log_users.md

@@ -1,0 +1,14 @@
+{{!Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.}}
+
+<footer>
+  <div class="grad-bottom"></div>
+  <div class="footer">
+    <div class="container">
+      <span class="pull-right">
+        <a href="#top">{{__global.backToTop}}<i class="fas fa-arrow-up" style="padding: 0 7px"></i></a>
+      </span>
+      {{{_appFooter}}}
+      {{^_appFooter}}<span>© 2003 - 2021 <a href="http://etos-pro.ru" target="_blank">«<strong>ЭТОС</strong>»</a></span>{{/_appFooter}}
+    </div>
+  </div>
+</footer>
