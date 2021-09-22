@@ -8,8 +8,6 @@
   href: 04_users.md
 - name: Бизнес-роли пользователей
   href: 05_business_roles.md
-- name: Профили пользователей, рабочие столы
-  href: 06_user_profiles.md
 - name: Настройка уведомлений
   href: 07_notifications.md
 - name: Настройка конфигурации
