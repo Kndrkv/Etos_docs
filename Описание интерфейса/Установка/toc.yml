@@ -1,0 +1,4 @@
+- name: Установка программы
+  href: 01_install.md
+- name: Установка системы уведомлений
+  href: 15_notifications_new.md
